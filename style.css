@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.image {
+    width: 522px;
+    height: 407px;
+    object-fit: cover;
+    transition: width 0.3s ease, transform 0.3s ease;
+}
+
+.image:hover {
+    width: 544px;
+    transform: scale(1.05);
+}
+
+.image-container .image:not(:hover) {
+    width: 244px;
+}
