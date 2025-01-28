@@ -29,3 +29,10 @@ body {
 .image-container .image:not(:hover) {
     width: 244px;
 }
+
+h1{
+    font-size:17px;
+}
+h2{
+    font-size: 12px;
+}
