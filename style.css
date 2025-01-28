@@ -12,8 +12,13 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    padding: 20px;
+    text-align: center;
 }
-
+h2{
+    font-size: 12px;
+    text-align: center ;
+}
 .image {
     width: 522px;
     height: 407px;
