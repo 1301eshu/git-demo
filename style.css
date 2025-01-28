@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    text-align: center;
 }
 
 .image {
